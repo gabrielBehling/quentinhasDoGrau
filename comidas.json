@@ -1,0 +1,130 @@
+{
+    "almoco": [
+        {
+            "name": "Prato Executivo",
+            "link": "https://cdn.awsli.com.br/600x1000/251/251386/produto/229285087/bife-bovino-30swsgyza0.jpg",
+            "price": 25.00
+        },
+        {
+            "name": "Feijoada",
+            "link": "https://www.foodandwine.com/thmb/be5HJEGNvEWllb-iYsML_DghtJ8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Feijoada-FT-RECIPE0323-2ed2fbae5e0c4110b5bb522c6d7e0eac.jpg",
+            "price": 30.00
+        },
+        {
+            "name": "Frango Grelhado",
+            "link": "https://img.cybercook.com.br/imagens/receitas/340/file-de-frango-grelhado-2-840x480.jpeg?q=75",
+            "price": 28.00
+        },
+        {
+            "name": "Strogonoff de Carne",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKQJuzBZO6O8qszhS3q5nFrOV58vaB2Zy0ng&s",
+            "price": 35.00
+        },
+        {
+            "name": "Salada Tropical",
+            "link": "https://images.mrcook.app/recipe-image/01911621-dd58-7ad1-b513-445c7a167d18?cacheKey=U2F0LCAwMyBBdWcgMjAyNCAwMjo0Njo0NyBHTVQ=",
+            "price": 20.00
+        },
+        {
+            "name": "Arroz com Brócolis",
+            "link": "https://img.cybercook.com.br/receitas/495/arroz-com-brocolis-840x480.jpeg?q=75",
+            "price": 18.00
+        }
+    ],
+    "jantar": [
+        {
+            "name": "Macarrão à Bolonhesa",
+            "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFHB4oliJZiKxT6bHoVdMPglFCMjHiwRQIMCv7Xm8ja0UKoz4wz-KwkmBwKRfP",
+            "price": 27.00
+        },
+        {
+            "name": "Salmão Grelhado",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_h89hBWVM_y4LWOuLTM72_m7LIB5hP-KyBNSZgb6TeocAJHTuSiGE6dPU1r_y",
+            "price": 45.00
+        },
+        {
+            "name": "Pasta de Atum",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh52rmLiQr3LitH-DVwTZya-AjqaEQ2NuZNawdioVsraybz49JWU1RfBvmCl3k",
+            "price": 22.00
+        },
+        {
+            "name": "Pizza Marguerita",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh52rmLiQr3LitH-DVwTZya-AjqaEQ2NuZNawdioVsraybz49JWU1RfBvmCl3k",
+            "price": 30.00
+        },
+        {
+            "name": "Risoto de Cogumelos",
+            "link": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBYylbbnW1ktlcb8pT6PWP2d4niMZhERzPorQt6Osfg5ECUN3Hy_dhtnkohoBD",
+            "price": 38.00
+        },
+        {
+            "name": "Wrap de Frango",
+            "link": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYhPRUEYcvDkYIPNRFWx18c461VURHMfwsb3Cto-a2p4SJVrDZAPYJgGppGWa1",
+            "price": 25.00
+        }
+    ],
+    "bebidas": [
+        {
+            "name": "Refrigerante",
+            "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPQ8jNSACx2EtVS0mZBb0qeAUAHNU04VMTE7h1wWeHpkDfQR1djf1slIWW421O",
+            "price": 5.00
+        },
+        {
+            "name": "Suco Natural",
+            "link": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4J6VzXVFDKo9OcCRxsu3L-9OkNctl5YvGi9wFO7Z93KCUm8ygRBATnY47BrW8",
+            "price": 7.00
+        },
+        {
+            "name": "Água Mineral",
+            "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRdAmyxkqiExgHmc6BhL-HuI5X00x4dISQBJgrvHKKwsHYl0AS3qEEJL_cnIPxb",
+            "price": 3.00
+        },
+        {
+            "name": "Cerveja",
+            "link": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHzW1E_K9fbIxgDeJKK1IkxCwv-oOPfjC9bvBHC77kJjC343bQsFo6am-TvXFM",
+            "price": 12.00
+        },
+        {
+            "name": "Vinho",
+            "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTt-0Vvl3uRc3c2X1BUuZeUGAXBkyYP5YWn5byl40l72apprRxHhlFQpjvJKR7q",
+            "price": 45.00
+        },
+        {
+            "name": "Chá Gelado",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVDEWx1LXjJErFqI4fDAhCg7V_eqc3zi7kCGEsgeCnSWbHtwXL1kDqmiL2vvqg",
+            "price": 6.00
+        }
+    ],
+    "sobremesas": [
+        {
+            "name": "Brigadeiro",
+            "link": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSaz0gUWILp6ziBAR5dUy3Vp7n33U5n8dRfuZHjve7S_PCM86Vl96aCAPyFK2Ax",
+            "price": 4.00
+        },
+        {
+            "name": "Pudim",
+            "link": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQvHlCNt2jbxbmsLl4l_Cp8GGdKva0Y2Whlv7BDCmszMmKqrPAs9qC0HRUQg0aI",
+            "price": 5.00
+        },
+        {
+            "name": "Torta de Limão",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS41_jC3W6vLioljo0_vaSr8gd5pg1pO2MWnNQX_XNVlSH71JkEq0keKHZdBBNr",
+            "price": 6.00
+        },
+        {
+            "name": "Frutas da Estação",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZSdr_IacWbxFcg-LnlPDD2dhAaxZm7nZZizmAxhIzBOP5yZT7-CFPLxu7Qbay8LyN-s4&usqp=CAU",
+            "price": 8.00
+        },
+        {
+            "name": "Cheesecake",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvcp9lQnaRjUfNivxdDDCctlee0fb7euLGUMpnnEzGkIvuaWeZ8tGHMuwrkBxp",
+            "price": 10.00
+        },
+        {
+            "name": "Brownie",
+            "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST4J6YU6IhwGtc6qJiP8W8SVMkyuY7wGAPd0UPu0bPEt_K4ElOVOOoOOjcJD8v",
+            "price": 12.00
+        }
+    ]
+}
