@@ -9,8 +9,10 @@ const renderMenu = async (type) => {
         const listItem = document.createElement('li');
         listItem.innerHTML = `
             <img class="prato" src="${item.link}" alt="${item.name}">
-            <h4>${item.name}</h4>
-            <p>R$ ${item.price.toFixed(2)}</p>
+            <div class="centered-text">
+                <h4>${item.name}</h4>
+                <p>R$ ${item.price.toFixed(2)}</p>
+            </div>
         `;
         menuList.appendChild(listItem);
     });
