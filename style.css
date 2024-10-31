@@ -222,32 +222,33 @@ button:disabled:hover {
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	overflow: auto;
 	background-color: rgba(0, 0, 0, 0.7);
 	backdrop-filter: blur(3px);
 	display: none;
+	align-items: center;
+	justify-content: center;
 }
 
 .popup-content {
 	background-color: #033121;
-	margin: 10% auto;
 	padding: 20px;
 	border: 1px solid #888888;
-	width: 70%;
+	width: 40%;
 	min-height: 80%;
 	font-weight: bolder;
 	display: flex;
 	flex-direction: column;
+	border-radius: 20px;
 }
 
 .popup-content button {
 	display: block;
-	margin: 0 auto;
 }
 
 .show {
-	display: block;
+	display: flex;
 }
 
 #listaDeCompras {
@@ -255,8 +256,11 @@ button:disabled:hover {
 	flex-direction: column;
 }
 
-#finalTotalCost {
+#popup-footer {
 	margin-top: auto;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
 }
 
 hr {

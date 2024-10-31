@@ -142,3 +142,10 @@ window.addEventListener("click", function (event) {
 		myPopup.classList.remove("show");
 	}
 });
+
+document.querySelector("#deleteCartButton").addEventListener('click', function(){
+	cart = []
+	showCartInfo()
+	renderMenu(actualType)
+	updateFooter()
+})
