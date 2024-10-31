@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quentinhas do Grau</title>
-    <script src="script.js" type="module" defer></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
-        <header>
-            <img id="logo" src="img/logo.png" alt="Logo">
-            <div id="abas">
-                <h2 class="menu-tab">Almoço</h2>
-                <h2 class="menu-tab">Jantar</h2>
-                <h2 class="menu-tab">Bebidas</h2>
-                <h2 class="menu-tab">Sobremesas</h2>
-            </div>
-        </header>
-        <div id="cardapio">
-            <h3 id="foodType">Almoço</h3>
-            <ul></ul>
-        </div>
-        <div id="carrinho" class=""></div>
-    </main>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quentinhas do Grau</title>
+		<script src="script.js" type="module" defer></script>
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<div id="logo-space">
+				<img id="logo" src="img/simpoloSemFundo.png" alt="Logo" />
+				<div id="logo-text">
+					<h2>Quentinhas</h2>
+					<h6>do Grau</h6>
+				</div>
+			</div>
+			<a href="index.html" class="disabled"><h2>Home</h2></a>
+			<a href="aboutUs.html"><h2>Sobre Nós</h2></a>
+		</header>
+		<main>
+			<div id="abas">
+				<h2 class="menu-tab active" id="almoco">Almoço</h2>
+				<h2 class="menu-tab" id="jantar">Jantar</h2>
+				<h2 class="menu-tab" id="bebidas">Bebidas</h2>
+				<h2 class="menu-tab" id="sobremesas">Sobremesas</h2>
+			</div>
+			<div id="cardapio">
+				<ul></ul>
+			</div>
+		</main>
+		<div class="footer">
+			<span id="itemCount">Itens: 0</span>
+			<span id="totalCost">Valor total: R$ 0.00</span>
+			<button id="cartButton">🛒</button>
+		</div>
+		<div id="myPopup" class="popup">
+			<div class="popup-content">
+				<h1>Carrinho de Compras</h1>
+				<ul id="listaDeCompras"></ul>
+				<hr />
+				<p id="finalTotalCost"></p>
+				<button id="closePopup">Fechar</button>
+			</div>
+		</div>
+	</body>
 </html>
